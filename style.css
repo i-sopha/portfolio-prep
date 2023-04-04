@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  padding: 20px 20px;
+}
+  
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul:first-child {
+  margin-right: auto;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav i {
+  font-size: 18px;
+  color: white;
+}
+
+nav i:hover {
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  nav ul:last-child {
+    display: none;
+  }
+}
+  
+.fa-github, .fa-linkedin {
+  margin-left: 10px;
+}
+
+h1 {
+  position: absolute;
+  top: 45%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Grand Hotel', cursive;
+}  
+
+h2 {
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.software {
+  position: absolute;
+  left: 8%;
+  top: 60%;
+  color: pink;
+}
+
+.developer {
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about {
+  color: pink;
+}
+
+.projects {
+  color: white;
+}
+
+img {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .5;
+  transition: opacity 0.5s ease-in-out;
+}
+
+img:hover {
+  opacity: 1; /* Set the opacity to 100% on hover */
+}
+
+.halfandhalf {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right,white 50%, pink 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  position: relative;
+  left: 80px;
+  top: -45px;
+  background-color: transparent;
+  border-radius: 50%;
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border: 2px solid pink;
+  cursor: pointer;
+}
+
+
+.btn1:active {
+  transform: translateY(2px);
+}
+  
+.btn2 {
+  position: relative;
+  left: 115px;
+  top: -45px;
+  background-color: transparent;
+  border-radius: 50%;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.btn2:active {
+  transform: translateY(2px);
+}
+  
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  nav ul:first-child {
+    margin-right: 0;
+  }
+  
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .software {
+    position: static;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .developer {
+    position: static;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  img {
+    position: static;
+    margin-top: 50px;
+  }
+  
+  .btn1, .btn2 {
+    position: static;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  nav {
+    padding: 2em;
+  }
+  
+  nav li {
+    margin-right: 2%;
+  }
+  
+  nav a {
+    font-size: 1.2em;
+  }
+  
+  h1 {
+    font-size: 8vw;
+  }
+  
+  h2 {
+    font-size: 4vw;
+  }
+  
+  .software {
+    left: 8%;
+    top: 70%;
+  }
+  
+  .developer {
+    top: 70%;
+    left: 75%;
+  }
+  
+  img {
+    top: 70%;
+    width: 50%;
+    height: auto;
+  }
+  
+  .btn1 {
+    left: 10%;
+    top: -10%;
+    font-size: 1.2em;
+    padding: 1em 2em;
+  }
+  
+  .btn2 {
+    left: 20%;
+    top: -10%;
+    font-size: 1.2em;
+    padding: 1em 2em;
+  }
+  
+}
+
