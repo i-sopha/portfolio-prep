@@ -1,0 +1,50 @@
+body {
+    background-image: url("/imgs/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  padding: 20px 20px;
+}
+  
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul:first-child {
+  margin-right: auto;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav i {
+  font-size: 18px;
+  color: white;
+}
+
+nav i:hover {
+  color: #666;
+}
+  
+.fa-github, .fa-linkedin {
+  margin-left: 10px;
+}
