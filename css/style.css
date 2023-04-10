@@ -7,7 +7,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: pink;
+  background-color: #e8c2b5;
   padding: 20px 20px;
 }
   
@@ -74,7 +74,7 @@ h2 {
   position: absolute;
   left: 8%;
   top: 60%;
-  color: pink;
+  color: #e8c2b5;
 }
 
 .developer {
@@ -89,7 +89,7 @@ a {
 }
 
 .about {
-  color: pink;
+  color: #e8c2b5;
 }
 
 .projects {
@@ -112,7 +112,7 @@ img:hover {
 .halfandhalf {
   height: 92.9vh;
   width: 100%;
-  background: linear-gradient(to right,white 50%, pink 50%);
+  background: linear-gradient(to right,white 50%, #e8c2b5 50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +131,7 @@ img:hover {
   display: inline-block;
   font-size: 16px;
   margin-top: 20px;
-  border: 2px solid pink;
+  border: 2px solid #e8c2b5;
   cursor: pointer;
 }
 
